@@ -1,36 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Ekran görüntüsü 2025-01-08 173029](https://github.com/user-attachments/assets/84982f65-ef04-41c5-b801-f576655ddbb9)
+![Ekran görüntüsü 2025-01-08 173042](https://github.com/user-attachments/assets/dee8d55b-5afd-4c54-b5af-20a5ca3bf73f)
+![Ekran görüntüsü 2025-01-08 173059](https://github.com/user-attachments/assets/ba5bb606-397c-4d34-a99d-819248f3f7f7)
+![Ekran görüntüsü 2025-01-08 173121](https://github.com/user-attachments/assets/3c881cb8-8ba4-4270-ac49-8b1af9ef17a1)
+![Ekran görüntüsü 2025-01-08 173140](https://github.com/user-attachments/assets/fda86b95-2df7-40ac-ad39-2b9b36541bea)
+![Ekran görüntüsü 2025-01-08 173153](https://github.com/user-attachments/assets/5fa583b8-be67-4869-be6a-ed1a3ef4a43f)
