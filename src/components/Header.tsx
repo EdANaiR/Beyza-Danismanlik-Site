@@ -141,37 +141,37 @@ export default function Header() {
         <nav className="flex flex-col items-center space-y-4 py-4">
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="/"
           >
             Anasayfa
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="/hakkimizda"
           >
             Hakkımızda
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="/calisma-alanlarim"
           >
             Çalışma Alanlarım
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="/tests"
           >
             Uyguladığım Testler
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="/blog"
           >
             Blog
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-            href="#"
+            href="#iletisim"
           >
             İletişim
           </Link>
