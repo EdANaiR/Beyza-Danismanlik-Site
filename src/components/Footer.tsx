@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col items-center mb-12">
           <Image
             src="/footer.png"
-            alt="Irmak Seyhan Logo"
+            alt="Sedef Yıldız Logo"
             width={500}
             height={500}
             className="mb-4"
@@ -19,9 +19,7 @@ export function Footer() {
 
         <div className="h-px bg-gray-200 w-full mb-12" />
 
-        {/* Content Grid */}
         <div className="grid gap-12 md:grid-cols-3">
-          {/* İletişim Bilgilerimiz */}
           <div>
             <h3 className="text-lg font-semibold text-[#445D3B] mb-6">
               İletişim Bilgilerimiz
@@ -43,12 +41,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#445D3B]" />
-                <p className="text-sm">info@beyzamail.com</p>
+                <p className="text-sm">info@sedefyildiz.com</p>
               </div>
             </div>
           </div>
 
-          {/* Hızlı Erişim */}
           <div>
             <h3 className="text-lg font-semibold text-[#445D3B] mb-6">
               Hızlı Erişim
@@ -70,7 +67,7 @@ export function Footer() {
                 Çalışma Alanlarım
               </Link>
               <Link
-                href="/testler"
+                href="/tests"
                 className="block text-sm hover:text-[#445D3B]"
               >
                 Uyguladığım Testler
@@ -85,7 +82,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Çalışma Saatlerimiz */}
           <div>
             <h3 className="text-lg font-semibold text-[#445D3B] mb-6">
               Çalışma Saatlerimiz

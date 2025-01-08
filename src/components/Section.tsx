@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-48">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm text-center md:text-left mb-4 md:mb-0">
-            Uzman Aile Danışmanı BEYZA SOYAD © 2024 Tüm Hakları Saklıdır.
+            Uzman Aile Danışmanı SEDEF YILDIZ © 2024 Tüm Hakları Saklıdır.
           </p>
 
           <div className="flex items-center gap-4">

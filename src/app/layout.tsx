@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Psikolog & Uzm.",
+  title: "Psikolog & Uzm. Sedef Yıldız",
   description: "Profesyonel psikolojik danışmanlık hizmetleri",
 };
 

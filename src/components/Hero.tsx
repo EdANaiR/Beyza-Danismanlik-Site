@@ -25,7 +25,6 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
 
-      {/* Main Content */}
       <div className="container relative mx-auto h-full flex items-center">
         <div className="space-y-6 px-4 md:px-48">
           <div
@@ -47,7 +46,7 @@ export function Hero() {
             }`}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
-              Beyza Soyad
+              Sedef Yıldız
             </h1>
           </div>
           <div
@@ -69,7 +68,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Social Icons */}
       <div className="absolute bottom-4 md:bottom-8 right-4 md:right-8 flex items-center space-x-2 md:space-x-4">
         <Link
           href="#"

@@ -8,14 +8,13 @@ export async function submitContactForm(formData: FormData) {
   const email = formData.get("email") as string;
   const subject = formData.get("subject") as string;
 
-  // Create a Nodemailer transporter
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: {
-      user: "edanurnair@gmail.com", // Your Gmail address
-      pass: "yufa dtaw futv fiht", // Your Gmail app password
+      user: "edanurnair@gmail.com",
+      pass: "yufa dtaw futv fiht",
     },
     tls: {
       rejectUnauthorized: false,
@@ -36,7 +35,6 @@ export async function submitContactForm(formData: FormData) {
   };
 
   try {
-    // Send the email
     await transporter.sendMail(mailOptions);
     return { success: true, message: "Form başarıyla gönderildi!" };
   } catch (error) {

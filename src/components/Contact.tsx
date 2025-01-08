@@ -64,10 +64,9 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="w-full py-16 md:py-24 bg-[#fafafa]">
+    <section id="iletisim" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 xl:px-48">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24">
-          {/* Sol Taraf - İletişim Bilgileri */}
           <div className=" p-8 rounded-lg ">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#445D3B] mb-12">
               Detaylı Bilgi Almak İçin
@@ -89,12 +88,11 @@ export function Contact() {
               </div>
               <div className="flex items-center gap-6">
                 <Mail className="h-6 w-6 text-[#445D3B] opacity-80" />
-                <p className="text-gray-600 text-lg">info@beyzamail.com</p>
+                <p className="text-gray-600 text-lg">info@sedefyildiz.com</p>
               </div>
             </div>
           </div>
 
-          {/* Sağ Taraf - Randevu Formu */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#445D3B] mb-12">
               Randevu Talebi Formu

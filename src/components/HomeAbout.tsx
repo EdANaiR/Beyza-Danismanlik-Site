@@ -27,7 +27,7 @@ export default function About() {
                 <Leaf className="h-6 w-6 text-[#445D3B]" />
               </div>
               <h2 className="text-xl sm:text-2xl font-semibold text-center lg:text-left">
-                Beyza Soyad
+                Sedef Yıldız
               </h2>
             </div>
             <div className="text-muted-foreground italic text-sm sm:text-base">
@@ -46,7 +46,7 @@ export default function About() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href="/about" passHref>
+              <Link href="/hakkimizda" passHref>
                 <Button className="w-full sm:w-auto bg-[#445D3B] hover:bg-[#445D3B]/90 text-white">
                   Devamını Oku
                 </Button>

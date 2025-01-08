@@ -34,7 +34,6 @@ export default function Header() {
 
   return (
     <header className="w-full relative">
-      {/* Üst İletişim Barı */}
       <div className="bg-gray-200">
         <div className="container mx-auto flex items-center justify-between px-4 sm:px-48 py-2 text-sm text-gray-600">
           <div className="hidden sm:flex items-center gap-8">
@@ -44,7 +43,7 @@ export default function Header() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>E-Posta: info@beyzamail.com</span>
+              <span>E-Posta: info@sedefyildiz.com</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -61,10 +60,8 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Ana Menü ve Logo */}
       <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-20">
         <div className="flex h-20 items-center justify-between relative">
-          {/* Hamburger Menü - Mobil */}
           <button
             className="sm:hidden text-gray-800 focus:outline-none absolute left-0 z-20"
             onClick={toggleMenu}
@@ -76,29 +73,27 @@ export default function Header() {
             )}
           </button>
 
-          {/* Left Navigation */}
           <nav className="hidden sm:flex items-center space-x-8">
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="/"
             >
               Anasayfa
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="/hakkimizda"
             >
               Hakkımızda
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="/calisma-alanlarim"
             >
               Çalışma Alanlarım
             </Link>
           </nav>
 
-          {/* Center Logo */}
           <Link
             href="/"
             className="flex flex-col items-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
@@ -114,23 +109,22 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Right Navigation */}
           <nav className="hidden sm:flex items-center space-x-8">
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="/tests"
             >
               Uyguladığım Testler
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="blog"
             >
               Blog
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
-              href="#"
+              href="#iletisim"
             >
               İletişim
             </Link>
@@ -138,7 +132,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobil Menü */}
       <div
         id="mobile-menu"
         className={`sm:hidden bg-gray-100 shadow-md w-full overflow-hidden transition-all duration-300 ease-in-out ${
@@ -185,7 +178,6 @@ export default function Header() {
         </nav>
       </div>
 
-      {/* Spacer to push content down when menu is open */}
       <div
         style={{ height: menuHeight }}
         className="transition-all duration-300 ease-in-out"

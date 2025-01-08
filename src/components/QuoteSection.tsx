@@ -14,7 +14,7 @@ export default function Quote() {
           </h2>
 
           <p className="text-white/90 text-lg md:text-xl italic">
-            Uzm. Aile Danışmanı Beyza Soyad
+            Uzm. Aile Danışmanı Sedef YILDIZ
           </p>
 
           <div className="pt-4">

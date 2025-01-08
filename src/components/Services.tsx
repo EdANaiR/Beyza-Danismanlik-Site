@@ -82,7 +82,7 @@ export function Services() {
                     fill
                     className="object-cover"
                   />
-                  {/* Hover Overlay */}
+
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="absolute inset-0 bg-[#445D3B]/20 opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-full scale-0 group-hover:scale-100" />
                     <Search className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />

@@ -7,6 +7,7 @@ import About from "@/components/HomeAbout";
 import Quote from "@/components/QuoteSection";
 import Section from "@/components/Section";
 import { ScrollToTop } from "@/components/ScrollTop";
+import TawkMessenger from "@/components/TawkMessenger";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </main>
       <Footer />
       <Section />
+      <TawkMessenger />
     </div>
   );
 }
